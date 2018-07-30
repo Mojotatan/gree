@@ -1,0 +1,51 @@
+/*
+THEME NAME: MyTheme
+THEME URI: www.example.com
+VERSION: 1.0
+AUTHOR: <a href="http://www.unpluggedesign.com/">UnpluggeDesign</a>
+AUTHOR URI: http://www.unpluggedesign.com/
+*/
+
+.social-media li {width: 20px}
+
+#contact-page-address{font-size:16px; color:#00285F; font-weight:normal; padding:42px 0 0 0; margin:0px; display:block; text-decoration:none;} /* copied from custome.css '.section1 a' */
+
+.header-nav-product-icon-img {max-height: 40px; width: 50px;}
+
+div.rd-navbar-inner{ height: 93px !important; }
+
+.rd-navbar-brand.brand.top-logo img{ width: 186px !important; }
+
+.sub-menu li.menu-item-object-product_category a{text-transform: uppercase; font-size: 14px !important;}
+
+/* .page-id-8 ul.sub-menu{ display: none !important; } */
+
+@media screen and (min-width: 992px) {.rd-navbar-nav > li > .sub-menu { background-color: #00285f !important; }}
+
+.distributor-list-anchor{ display: block; height: 98px; margin-top: -98px; visibility: hidden;} /* used to fix distributor list anchors ending up covered by header */
+
+.indoor-listing p {text-transform: none !important}
+
+a:hover span {text-decoration:none; transition:all ease-in-out 0.5s!important; -webkit-transition:all ease-in-out 0.5s!important; -moz-transition:all ease-in-out 0.5s!important; -ms-transition:all ease-in-out 0.5s!important; -o-transition:all ease-in-out 0.5s!important;}
+
+.expert-engry li img { max-width: 135px; max-height: 80px; }
+
+#product-type-container{width:80%; max-width: none !important; padding: 0;}
+
+@media all and (min-width:768px) {
+    .single-product .custom-background .product-header .product-hero-image .prdct-img {
+        margin-top:18vw;
+        }
+
+        .single-product .custom-background #unknown-spacer{
+            display: none;
+        }
+        .single-product .custom-background .gmv5-textbox{
+            float: none;
+            text-align: center;
+        }
+        .single-product .custom-background .gmv5-textbox p{
+            text-align: center !important;
+        }
+    }
+    

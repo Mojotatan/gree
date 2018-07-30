@@ -1,0 +1,72 @@
+.historypage h2 {  color: #00285f; font-size: 28px; font-weight: bold;  margin: 20px 0;}
+.historypage p {   color: #00285f;  font-size: 15px;}
+.why-bnr {background: #000 url(../images/why.jpg); background-repeat: no-repeat;  float: left;  width: 100%;  min-height: 495px;  position: relative;  background-size: cover;}
+
+.inno-bnr { background: url(../images/innovation.jpg);  background-repeat: no-repeat;  float: left;  width: 100%;   min-height: 775px;  position: relative;  background-size: cover;}
+.solar-bnr {background: url(../images/solar.jpg);  background-repeat: no-repeat;  float: left;  width: 100%;  min-height: 684px;  position: relative;  background-size: cover;}
+.history-part {position: relative; width: 100%;  float: left;  min-height: 1px;}
+.contbox-1 {position: absolute; left: 17%; top: 20%;  width: 40%;}
+.contbox-2 {position: absolute;  right: 10%; top:-125px; width: 35%;  text-align: right; /* height: 500px; */  z-index: 9999;}
+.contbox-3 { position: absolute;  right: 10%; bottom: 18%; width: 35%;  text-align: right;}
+.contbox-4 { position: absolute; right: 10%; bottom: 10%; width: 35%; text-align: right;}
+.blue-part { background: #00285f;    width: 100%;  float: left;  text-align: center;}
+.blue-part li {display: inline-block; padding: 40px 20px;}
+.distributor{max-width: 670px; margin: 0 auto; padding-bottom:102px; margin-top:300px;}
+.distributor .select-box{}
+.bdrb{border-bottom: 1px solid #fc632d;}
+.bluebdr{border-bottom: 1px solid #93c3f8;}
+.namedist{ border-top: 1px solid #fc632d; margin-top: 15px; padding-bottom:10px; }
+.namedist:last-child{border-bottom:1px solid #fc632d;}
+.namedist h2{color:#00285f; font-weight: bold; padding:18px 0 0 0; margin: 0;}
+.namedist strong{ color:#00285f; font-size: 14px; padding:20px 0 4px 0; margin: 0;display: block;}
+.namedist p{color:#013C8B; font-size:14px; padding: 0 0 10px 0; margin: 0; font-weight:100;}
+.lova-padding{padding:20px 0 0 0;}
+.lova-padding p{line-height:24px; padding:0px; margin:0px;}
+.GMV5-bg {background: #000 url(../images/GMV5-Bg.jpg); background-repeat: no-repeat; float: left;  width: 100%;  min-height: 495px; position: relative; background-size: cover;}
+.GMV5-CNT{ max-width: 800px; margin:0 auto;}
+.GMV5-CNT h2 {  color: #00285f; font-size: 28px; font-weight: bold;  margin: 20px 0;}
+.GMV5-CNT p {   color: #00285f;  font-size: 15px;}
+.GMV5-cntbox {padding: 100px 0 0 0;}
+
+@media (max-width: 991px){
+.contbox-1, .contbox-2, .contbox-3, .contbox-4{ width: 50%;}
+}
+
+@media (max-width: 767px){
+.contbox-1, .contbox-2, .contbox-3, .contbox-4 { width: 90%; left: 25px; right: auto; position: relative;}
+.contbox-1 { top: auto;}
+.contbox-2 { top:0;}
+.contbox-3 { top: 70px;}
+.contbox-4 { top: 110px;}
+.historypage h2 { margin: 20px 0 10px 0;}
+.why-bnr { min-height: 300px;}
+.inno-bnr { min-height: 300px;}
+.solar-bnr { min-height: 300px;}
+.blue-part li {  padding: 20px 20px;}
+strong.hidden-xs {display: none;}
+.distributor{padding-left:20px; padding-right:20px;}
+
+}
+
+@media (max-width: 640px){
+.namedist {border-top: 1px solid #fc632d;  margin-top: 15px;   margin-left: 0 !important; margin-right: 0 !important;}
+
+}
+
+@media (max-width: 480px){
+.historypage h2 { font-size: 24px;    margin-bottom: 5px;}
+.blue-part li {  padding: 20px 10px;}
+.contbox-4 {top: 145px;}
+
+}	
+
+@media (max-width: 375px){
+.contbox-1 { top: auto;}
+.contbox-2 { top:0;}
+.contbox-3 { top: 50px;}
+.contbox-4 { top: 150px;}
+.blue-part {padding: 10px 0;}
+.blue-part li { padding: 10px 0; display: block;}
+
+
+}
